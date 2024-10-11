@@ -170,7 +170,7 @@
   
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     .column {
         padding-right: 10px;
     }
