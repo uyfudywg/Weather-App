@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+  .wrapper {
+    font-size: 16px;
+    width: 90vw;
+    max-width: 28em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+ body {
+    height: 100vh;
+    background: linear-gradient(135deg,#62b8f5 , #9f9f9f); 
+}
+
+.AppCard{  
+    width: 90%;
+    max-width: 470px;
+    color: #fefffe;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 40px 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1.8em 3.7em  rgba(3, 46, 87, 0.2);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.20), rgba(255, 255, 255, 0.20));
+}
+
+.searchArea{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.Weather-Icon{
+
+    width: 170px;
+    margin-top: 30px;
+}
+
+.searchArea button img{
+    width: 20px;
+    padding-top: 5px;
+}
+
+.WeatherDisplay h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.WeatherDisplay h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+
+.detailsInfo{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.column img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: larger;
+    margin-top: -5px;
+}
+
+
+.title{
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.title p span{
+    color:#35282d;
+    font-weight: 800;
+}
+
+
+.container .message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container .message img {
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+
+.search-container input,
+.search-container button {
+  outline: none;
+  font-size: 1em;
+  border: none;
+}
+.search-container input {
+  padding: 0.7em;
+  background-color: transparent;
+  border-bottom: 2px solid  rgba(255, 255, 255, 0.25);;
+  color:#ffffff;
+  font-weight: 300;
+}
+.search-container input::placeholder {
+  color: #e5e5e5;;
+}
+.search-container input:focus {
+  border-color: #ffffff;
+}
+.search-container button {
+  color: #4475ef;
+  background-color:  #ffffff;
+  border-radius: 0.3em;
+}
+
+.search-container {
+    /* font-size: 1em; */
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.AppCard .message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.AppCard .message img {
+    width: 200px;
+    margin-bottom: 8px;
+  
+}
+
